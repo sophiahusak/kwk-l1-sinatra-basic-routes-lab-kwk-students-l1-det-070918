@@ -1,7 +1,8 @@
 get '/hello/:id' do
   @name = params[:id]
   "Hello #{@name}!"
-end# require_relative 'config/environment'
+end
+# require_relative 'config/environment'
 
 # class App < Sinatra::Base
 #   get '/' do
